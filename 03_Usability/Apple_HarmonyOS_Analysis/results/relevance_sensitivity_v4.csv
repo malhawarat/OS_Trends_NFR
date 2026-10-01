@@ -1,0 +1,11 @@
+platform,scenario,ai_posts,clusters,kish_eff_clusters,top1_pct,pairs,positive_share_pct,ci_low,ci_high,reportable
+harmonyos,A (as classified),628,286,119.2,2.9,858,54.5,47.7,60.9,True
+harmonyos,B (strict rules),604,273,113.5,3.0,806,52.5,45.6,59.2,True
+harmonyos,C (rules + no LLM-controversy),586,265,111.7,3.1,774,52.8,46.0,59.5,True
+harmonyos,V (verifier),394,186,83.6,4.1,539,52.6,44.4,60.8,True
+harmonyos,V+B (verifier + rules),385,180,80.9,4.2,518,51.2,42.7,59.1,True
+apple,A (as classified),11572,4101,1014.3,0.3,19530,24.7,23.3,26.0,True
+apple,B (strict rules),11127,3867,961.6,0.4,18653,24.2,22.8,25.6,True
+apple,C (rules + no LLM-controversy),11087,3862,962.6,0.4,18572,24.2,22.9,25.6,True
+apple,V (verifier),9539,3593,934.9,0.4,16656,23.6,22.2,25.1,True
+apple,V+B (verifier + rules),9197,3397,888.8,0.4,15955,23.3,21.9,24.8,True

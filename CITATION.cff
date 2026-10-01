@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it and the associated article."
+title: "Replication package for: When Convenience Meets Risk: Evaluating Usability, Security, and AI Reliability Across Modern Operating Systems"
+type: dataset
+authors:
+  - family-names: Alhawarat
+    given-names: Mohammad
+    affiliation: "Faculty of Information Technology, Al-Ahliyya Amman University, Amman, Jordan"
+    orcid: "https://orcid.org/0000-0002-2608-6573"
+  - family-names: Nijem
+    given-names: Qasem
+    affiliation: "Faculty of Information Technology, Al-Ahliyya Amman University, Amman, Jordan"
+repository-code: "https://github.com/malhawarat/OS_Trends_NFR"
+license: CC-BY-4.0   # data and documentation; code is MIT (see LICENSE and LICENSE-DATA.md)
+version: "1.0.0"
+date-released: "2026-10-02"
+keywords:
+  - operating systems
+  - non-functional requirements
+  - usability
+  - security
+  - AI reliability
+  - aspect-based sentiment analysis
+  - LLM hallucination

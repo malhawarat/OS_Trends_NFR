@@ -1,0 +1,27 @@
+sentiment,meta_cluster,theme_name,size,pct_of_total,merged_from_raw_clusters,sample_phrases
+positive,2,General usefulness/helpfulness,4677,35.69,"[2,5,9,13,17]",evolving features; office work assistance; free service; work tool; content quality; creative tool; works well
+positive,3,AI chat assistance quality,2988,22.8,"[3,6]",good ai; ai assistance; chat bot; ai search results; smart chat; generative ai; ai coding assistance
+positive,1,"Quick, accurate answers",1476,11.26,"[1,7]",accurate answers; quick answers; detailed answers; quick research; clear answers
+positive,0,Document creation & writing,1405,10.72,"[0,16]",document optimization; clear replies; email assistance; document creation assistance; assignment typing
+positive,6,Image generation quality,543,4.14,[10],image generation; creation quality; image creation; photo generation; add image generator
+positive,4,Ease of use,506,3.86,[4],easy to use; easy use
+positive,5,PDF conversion,443,3.38,[8],pdf conversion ease; easy file conversion; pdf scanning; pdf conversion; pdf editing
+positive,8,Homework/study help,398,3.04,[12],homework help; research help; writing assistance; study assistance; college help
+positive,9,GPT-4 access / vs. ChatGPT,252,1.92,[14],gpt4 quality; gpt 4 mode; free gpt usage; gpt 4 performance; gpt-4 support
+positive,10,"""Very helpful"" praise",222,1.69,[15],very helpful; great help
+positive,7,Overall satisfaction,195,1.49,[11],overall satisfaction
+negative,14,Needs improvement / interface gaps,1162,16.36,"[17,18]",poor tone; backtracks; limited text processing; read back functionality; lacks originality
+negative,0,App crashes & missing features,780,10.98,"[0,8]",outdated info; login required; features not working; app not working; upgrade issue
+negative,4,Image generation/quality issues,725,10.21,"[5,19]",image generation; image reading; image quality; image generation issues; image upload issues
+negative,2,Document editing & math errors,610,8.59,"[2,4]",document search issue; ocr issues; word skipping issue; spell check fails; symbol recognition issue
+negative,8,Chat & conversation-history issues,596,8.39,"[10,13]",chat visibility issues; ai chat issues; chat restrictions; conversation continuity; chat access issue
+negative,5,PDF conversion issues,524,7.38,[6],pdf conversion failed; pdf limit increase; pdf editing crashes; pdf conversion error
+negative,7,Slow performance/response,523,7.36,[9],slow response; slow performance; unreliable performance; app performance; performance issues
+negative,10,Inaccurate/biased answers,459,6.46,[12],inconsistent answers; unhelpful responses; inefficient answers; incorrect answers; refuses answers
+negative,3,AI accuracy/limitations,432,6.08,[3],audio ai; autonomous actions; ai unavailable; ai limitations; useless ai; rogue ai
+negative,11,Usage limits/restrictions,338,4.76,[14],limited search; subscription restrictions; input editing limitations; word limit issue
+negative,9,Voice recognition issues,284,4.0,[11],voice response; annoying ai voice; voice recognition; voice chat issues; voice input issue
+negative,1,Accuracy issues (general),266,3.74,[1],error prone; inaccurate results; accuracy issues; scripting accuracy; output accuracy
+negative,12,Censorship/content filtering,136,1.91,[15],propaganda content; restricted topics; censorship issues; censored perspectives; content filtering
+negative,13,Forced Copilot integration,135,1.9,[16],unresponsive copilot; forced copilot use; copilot integration; unhelpful copilot; copilot prominence
+negative,6,Language/translation gaps,134,1.89,[7],translation quality; language setting issue; multilingual support; thai language support; urdu support needed
