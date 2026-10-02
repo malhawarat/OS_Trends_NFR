@@ -1,5 +1,7 @@
 # When Convenience Meets Risk: Replication Package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23098900.svg)](https://doi.org/10.5281/zenodo.23098900)
+
 Replication package for **"When Convenience Meets Risk: Evaluating Usability, Security, and AI Reliability Across Modern Operating Systems"** by Mohammad Alhawarat and Qasem Nijem (Al-Ahliyya Amman University), submitted to *Empirical Software Engineering*.
 
 The study maps operating-system evolution (2015–2026) onto three non-functional requirements (usability, security/privacy, and AI reliability/trustworthiness) across Apple/iOS, HarmonyOS, Fuchsia, and Windows.
@@ -36,7 +38,7 @@ File-by-file descriptions of every folder are in [`README_details.txt`](README_d
 
 ## Citation
 
-Use the **"Cite this repository"** button (generated from `CITATION.cff`), and please also cite the article.
+Archived at Zenodo: [10.5281/zenodo.23098900](https://doi.org/10.5281/zenodo.23098900) (version 1.0.0). Use the **"Cite this repository"** button (generated from `CITATION.cff`), and please also cite the article.
 
 ## License
 

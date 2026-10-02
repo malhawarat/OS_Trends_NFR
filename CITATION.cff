@@ -10,6 +10,7 @@ authors:
   - family-names: Nijem
     given-names: Qasem
     affiliation: "Faculty of Information Technology, Al-Ahliyya Amman University, Amman, Jordan"
+doi: "10.5281/zenodo.23098900"
 repository-code: "https://github.com/malhawarat/OS_Trends_NFR"
 license: CC-BY-4.0   # data and documentation; code is MIT (see LICENSE and LICENSE-DATA.md)
 version: "1.0.0"
