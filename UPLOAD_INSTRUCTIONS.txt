@@ -1,0 +1,26 @@
+REPO UPDATE v1.2.0 -- files to upload to github.com/malhawarat/OS_Trends_NFR
+============================================================================
+Upload each file to the path shown, replacing the existing file where one
+exists. Do NOT rename or move any folder: the existing names keep old links
+and the Zenodo archive consistent.
+
+REPLACE:
+  README.md
+  README_details.txt
+  CITATION.cff
+  03_Usability/Copilot_Quantitative_Analysis/README_data_provenance.txt
+  03_Usability/Apple_HarmonyOS_Analysis/figures/fig_usability_forest.png
+
+ADD (new files):
+  CHANGELOG.md
+  verify_copilot_figures.py
+  03_Usability/Apple_HarmonyOS_Analysis/results/platform_comparison_sensitivity.csv
+
+THEN:
+  1. Commit with a message such as:
+       "v1.2.0: correct Copilot corpus provenance, security kappa, and
+        withdraw the triangulation claim; add sensitivity results"
+  2. Create a release tagged v1.2.0 so Zenodo mints a new version DOI.
+  3. Update the manuscript's Data Availability statement (titlepage.tex)
+     to cite the new version DOI, or the concept DOI if you prefer it to
+     always resolve to the latest version.

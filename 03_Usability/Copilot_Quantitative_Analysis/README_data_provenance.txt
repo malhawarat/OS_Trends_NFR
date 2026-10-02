@@ -1,5 +1,22 @@
-WINDOWS COPILOT QUANTITATIVE USABILITY ANALYSIS
-=================================================
+MICROSOFT COPILOT (MOBILE APP) QUANTITATIVE SENTIMENT ANALYSIS
+================================================================
+
+WHAT THIS CORPUS IS -- AND IS NOT
+----------------------------------
+This is NOT Windows data. The Chhetri et al. (2025) corpus is a study of user
+feedback on AI-powered MOBILE apps, and the Copilot rows in it carry the
+Android package identifiers com.microsoft.copilot (the Copilot app) and
+com.microsoft.office.officehubrow (the Microsoft 365 app). Filtering the
+corpus to Copilot therefore yields reviews of those mobile applications,
+written by users who chose to install them on a phone -- not feedback on
+Copilot as integrated into the Windows shell.
+
+The paper reports the resulting 64.8% positive share as a REFERENCE POINT
+only. It is not a platform estimate, it is not comparable with the Apple and
+HarmonyOS figures, and it is not ranked against them. This study collected no
+user-sentiment data for Windows. Earlier releases of this package described
+this folder as the Windows result; that description was incorrect and has been
+corrected here.
 
 WHAT THIS FOLDER CONTAINS
 --------------------------
@@ -67,10 +84,19 @@ DIAGNOSTIC FIGURES (added after fixing a clustering bug)
   merge_dendrograms.png
     Average-linkage hierarchical clustering dendrogram for both sentiment
     classes, with the actual cut height (distance=0.45) marked in red.
-    Notably, the "Forced Copilot integration" cluster (negative cluster 16)
-    branches off at the highest distance in the tree, visually confirming
-    it stayed distinct rather than being folded into another theme -- direct
-    supporting evidence for the paper's key triangulation finding.
+    The "Forced Copilot integration" cluster (negative cluster 16) branches
+    off at the highest distance in the tree, so it stayed distinct rather
+    than being folded into another theme. NOTE: earlier releases called this
+    "direct supporting evidence for the paper's key triangulation finding."
+    That claim has been withdrawn. Remaining centroid-distinct is a property
+    of the clustering resolution and merge threshold, not independent
+    evidence that the underlying concern is distinct, and the cluster is
+    heterogeneous: two of its five representative phrases ("unresponsive
+    copilot", "unhelpful copilot") are performance complaints. Measured
+    directly against the raw corpus, imposition vocabulary (forced,
+    unwanted, intrusive, imposed, mandatory, unable to disable) appears in
+    72 of the 7,104 negative phrases (1.0%), not the 1.9% the cluster size
+    suggests. See verify_copilot_figures.py in the repository root.
 
 NOTE ON THE MERGE ALGORITHM
 ------------------------------
