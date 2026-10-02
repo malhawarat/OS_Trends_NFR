@@ -95,8 +95,9 @@ KNOWN LIMITATIONS OF THIS PACKAGE (stated for transparency)
   0.653 against the authors' consensus). The paper therefore bases HarmonyOS on
   hand-validated posts and Apple on detected English posts; Apple's hand
   validation covered a 100-post sample.
-- HarmonyOS theme shares (Figure 5) were derived before human validation and
-  are indicative only.
+- HarmonyOS themes (Figure 5) are derived from the 302 hand-validated posts
+  (notebooks/HarmonyOS_Validated_Themes.ipynb); for its 208 negative phrases
+  the silhouette criterion selected three clusters, so those themes are broad.
 - The security rubric's HarmonyOS and Fuchsia evidence relies more on
   secondary/journalistic sources than Apple/iOS and Windows; this asymmetry is
   visible in each row's Evidence column.

@@ -10,6 +10,15 @@ notebooks/Reproduce_Usability_Results.ipynb
     No API calls, no raw text needed; runs in about a minute in Google Colab.
     Set BASE to this folder's path in the first cell.
 
+notebooks/HarmonyOS_Validated_Themes.ipynb
+    Re-derives the HarmonyOS themes (Figure 5) from the 302 posts confirmed by
+    both authors, with the same clustering code as the pipeline notebook.
+    Reads the archived v1.0.0 data directly; no API keys needed. Mounts Google
+    Drive and saves outputs next to the project's other files. Outputs:
+    results/harmonyos_themes_validated.csv,
+    results/harmonyos_themes_validated_summary.json,
+    figures/harmonyos_validated_dendrogram.png (300 dpi).
+
 notebooks/Apple_HarmonyOS_Usability_v4.ipynb
     The full collection and classification pipeline as run for the paper
     (official APIs -> Claude Sonnet 5 extraction -> stricter verification pass ->
@@ -39,7 +48,7 @@ human_validation/usability_consensus_labels_v4.csv
     the post; model_sent = post-level sentiment derived from its aspect pairs:
     any positive plus any negative -> mixed).
 
-results/   theme_clusters_v4.csv, relevance_sensitivity_v4.csv,
+results/   theme_clusters_v4.csv (Apple; HarmonyOS pre-validation), harmonyos_themes_validated.csv, relevance_sensitivity_v4.csv,
            robustness_report_v4.csv (pre-validation), scope_sensitivity_camera_v4.csv
            (pre-validation), final_validated_stats.json (Table 2 values),
            analyzed_by_source.csv (Table 3 final column).

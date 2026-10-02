@@ -1,0 +1,23 @@
+{
+ "source": "v1.0.0 release, DOI 10.5281/zenodo.23098900",
+ "confirmed_posts": 302,
+ "aspect_pairs": 396,
+ "sentiment_counts": {
+  "negative": 208,
+  "positive": 169,
+  "neutral": 19
+ },
+ "clustering": {
+  "positive": {
+   "phrases": 169,
+   "k": 15,
+   "merged_themes": 12
+  },
+  "negative": {
+   "phrases": 208,
+   "k": 3,
+   "merged_themes": 3
+  }
+ },
+ "distance_threshold": 0.45
+}
