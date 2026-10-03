@@ -4,6 +4,9 @@ Three stale statements survived the v1.2.0 update because they sit in files
 that were not part of that batch. None affects any number in the paper.
 
 REPLACE:
+  CHANGELOG.md
+      Adds the 1.2.1 entry above the existing 1.2.0 one.
+
   03_Usability/Copilot_Quantitative_Analysis/copilot_summary_stats.json
       Its "key_finding" field still described the Copilot theme as
       corroborating a three-method triangulation argument about WINDOWS

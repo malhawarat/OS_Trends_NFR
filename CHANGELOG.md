@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.1 — 2026-10-03
+
+Documentation-only patch. No data file, score, estimate or figure changed; every number in the package is identical to 1.2.0. It removes three stale statements that survived the 1.2.0 update because they sit in files that were not part of that batch.
+
+- `03_Usability/Copilot_Quantitative_Analysis/copilot_summary_stats.json` — the `key_finding` field still described the "Forced Copilot integration" theme as corroborating a three-method triangulation argument about *Windows* Copilot. Both claims were withdrawn in 1.2.0 (see below) but this file was missed. The field now records the correction, including the Android package identifiers that establish the corpus is mobile-app data and the directly measured imposition-vocabulary count (72 of 7,104 negative phrases, 1.0%). Every numeric field in the file is unchanged.
+- `03_Usability/Apple_HarmonyOS_Analysis/README.txt` — described the folder as a "usability analysis"; now user sentiment, with a note on why the folder name is unchanged, a pointer to the Table 4 sensitivity results added in 1.2.0, and a note that the v5 notebook in circulation is byte-identical to the v4 file released here.
+- `README_details.txt` — the security/privacy trend tab was described as feeding "Table 4". Inserting the platform-comparison sensitivity table in 1.2.0 moved the security table to Table 5.
+- `UPLOAD_INSTRUCTIONS.txt` — removed. A working note for applying the 1.2.0 update, committed by accident; it was never part of the package.
+
 ## 1.2.0 — 2026-10-03
 
 Corrections and additions following a pre-submission review of the manuscript by six colleagues, and a full re-verification of every reported figure against its primary source. Three of these changes correct statements in earlier releases; they are listed first and in full, because anyone who read release 1.0.0 or 1.1.0 should know what changed.
