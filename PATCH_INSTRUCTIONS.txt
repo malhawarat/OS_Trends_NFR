@@ -1,0 +1,32 @@
+PATCH v1.2.1 -- three files to replace, one to delete
+======================================================
+Three stale statements survived the v1.2.0 update because they sit in files
+that were not part of that batch. None affects any number in the paper.
+
+REPLACE:
+  03_Usability/Copilot_Quantitative_Analysis/copilot_summary_stats.json
+      Its "key_finding" field still described the Copilot theme as
+      corroborating a three-method triangulation argument about WINDOWS
+      Copilot -- both claims withdrawn in v1.2.0. Every numeric field in the
+      file is byte-for-byte unchanged; only that one prose field was rewritten.
+
+  03_Usability/Apple_HarmonyOS_Analysis/README.txt
+      Header and body said "usability analysis" / "usability number"; now
+      user sentiment, with a note on why the folder name is unchanged. Also
+      points to the new Table 4 sensitivity CSV, and notes that the v5
+      notebook is byte-identical to the v4 file released here.
+
+  README_details.txt
+      The security/privacy trend tab is described as feeding "Table 4"; after
+      the new sensitivity table was inserted, the security table is Table 5.
+
+DELETE:
+  UPLOAD_INSTRUCTIONS.txt
+      This was a working note for applying the v1.2.0 update, not part of the
+      package. It was committed by accident.
+      git rm UPLOAD_INSTRUCTIONS.txt
+
+THEN:
+  Commit (e.g. "v1.2.1: correct residual triangulation/Windows wording in
+  copilot_summary_stats.json; fix table reference; drop working note") and
+  tag v1.2.1 so Zenodo archives the corrected package.

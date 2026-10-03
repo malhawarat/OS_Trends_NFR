@@ -1,12 +1,21 @@
-APPLE INTELLIGENCE & HARMONYOS USABILITY ANALYSIS (Sections 4.3 and 5.2)
-==========================================================================
+APPLE INTELLIGENCE & HARMONYOS USER-SENTIMENT ANALYSIS (Sections 4.3 and 5.2)
+==============================================================================
+
+The folder keeps the name 03_Usability for link stability with earlier
+releases. The construct measured here is USER SENTIMENT toward AI features --
+the positive share of expressed opinions -- which bears on the satisfaction
+facet of quality in use and does not measure task success, efficiency, or
+error rates.
 
 WHAT THIS FOLDER CONTAINS
 --------------------------
 notebooks/Reproduce_Usability_Results.ipynb
-    START HERE. Recomputes every Apple/HarmonyOS usability number in the paper
+    START HERE. Recomputes every Apple/HarmonyOS sentiment number in the paper
     (Tables 2 and 3, the human-validation statistics, the superseded model-only
-    estimate, and all sensitivity analyses) from the released files alone.
+    estimate, and the relevance/scope sensitivity analyses) from the released
+    files alone. Table 4 (the platform-comparison sensitivity analysis added in
+    release 1.2.0 -- YouTube-only, post-level, and the bootstrapped difference)
+    is released as results/platform_comparison_sensitivity.csv.
     No API calls, no raw text needed; runs in about a minute in Google Colab.
     Set BASE to this folder's path in the first cell.
 
@@ -20,7 +29,7 @@ notebooks/HarmonyOS_Validated_Themes.ipynb
     figures/harmonyos_validated_dendrogram.png (300 dpi).
 
 notebooks/Apple_HarmonyOS_Usability_v4.ipynb
-    The full collection and classification pipeline as run for the paper
+    (Also circulated as v5; the code is byte-identical.) The full collection and classification pipeline as run for the paper
     (official APIs -> Claude Sonnet 5 extraction -> stricter verification pass ->
     rule audit -> clustering -> cluster-robust statistics). Outputs were cleared
     because they printed sample post text. Re-running it needs your own API

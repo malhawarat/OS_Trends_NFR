@@ -1,21 +1,21 @@
 {
-  "app_names_included": [
-    "\u200b\u200bMicrosoft Copilot",
-    "Microsoft Copilot",
-    "Microsoft 365 Copilot"
-  ],
-  "total_aspect_sentiment_pairs": 20209,
-  "unique_reviews": 15821,
-  "positive_pairs": 13105,
-  "negative_pairs": 7104,
-  "positive_pct": 64.85,
-  "negative_pct": 35.15,
-  "positive_k_clusters_raw": 18,
-  "negative_k_clusters_raw": 20,
-  "positive_meta_themes_after_merge": 11,
-  "negative_meta_themes_after_merge": 15,
-  "merge_method": "average-linkage agglomerative clustering on 1-cosine_similarity distance",
-  "merge_distance_threshold": 0.45,
-  "merge_algorithm_note": "An initial attempt used transitive (union-find) merging, which produced pathological chaining -- e.g. 13 of 18 positive clusters collapsed into one group at a similarity threshold of 0.58, because union-find merges A with C whenever A-B and B-C both cross the threshold, regardless of A-C similarity. Average-linkage agglomerative clustering (scipy.cluster.hierarchy, method='average') was used instead, which requires the AVERAGE similarity across an entire candidate group to clear the threshold, not just one connecting pair. This resisted chaining and produced the modest, semantically coherent consolidation reflected in this file (18->11 positive, 20->15 negative).",
-  "key_finding": "The 'Forced Copilot integration' theme (135 phrases, 1.9% of negative pairs) was NOT merged with any other cluster despite the consolidation step -- visible in merge_dendrograms.png as the cluster branching off at the highest distance in the negative dendrogram (cluster 16, leftmost leaf). This independently corroborates, from real app-review text, the qualitative web-search pass's finding that a meaningful share of Windows Copilot dissatisfaction concerns unwanted, forced OS-level integration rather than output quality -- part of a three-method triangulation argument in the paper's Discussion section."
+ "app_names_included": [
+  "​​Microsoft Copilot",
+  "Microsoft Copilot",
+  "Microsoft 365 Copilot"
+ ],
+ "total_aspect_sentiment_pairs": 20209,
+ "unique_reviews": 15821,
+ "positive_pairs": 13105,
+ "negative_pairs": 7104,
+ "positive_pct": 64.85,
+ "negative_pct": 35.15,
+ "positive_k_clusters_raw": 18,
+ "negative_k_clusters_raw": 20,
+ "positive_meta_themes_after_merge": 11,
+ "negative_meta_themes_after_merge": 15,
+ "merge_method": "average-linkage agglomerative clustering on 1-cosine_similarity distance",
+ "merge_distance_threshold": 0.45,
+ "merge_algorithm_note": "An initial attempt used transitive (union-find) merging, which produced pathological chaining -- e.g. 13 of 18 positive clusters collapsed into one group at a similarity threshold of 0.58, because union-find merges A with C whenever A-B and B-C both cross the threshold, regardless of A-C similarity. Average-linkage agglomerative clustering (scipy.cluster.hierarchy, method='average') was used instead, which requires the AVERAGE similarity across an entire candidate group to clear the threshold, not just one connecting pair. This resisted chaining and produced the modest, semantically coherent consolidation reflected in this file (18->11 positive, 20->15 negative).",
+ "key_finding": "The 'Forced Copilot integration' theme (135 phrases, 1.9% of negative pairs) was NOT merged with any other cluster despite the consolidation step -- visible in merge_dendrograms.png as the cluster branching off at the highest distance in the negative dendrogram (cluster 16, leftmost leaf). CORRECTED IN RELEASE 1.2.0: earlier releases described this as independent corroboration of a three-method triangulation argument about Windows Copilot. That claim has been withdrawn. This corpus is Copilot MOBILE APP reviews (Android package identifiers com.microsoft.copilot and com.microsoft.office.officehubrow), not Windows, so it cannot corroborate any claim about the Windows shell. The theme is also heterogeneous: two of its five representative phrases ('unresponsive copilot', 'unhelpful copilot') are performance complaints. Measured directly against the raw corpus, imposition vocabulary (forced, unwanted, intrusive, imposed, mandatory, unable to disable) appears in 72 of the 7,104 negative phrases (1.0%), not the 1.9% the cluster size suggests. See verify_copilot_figures.py and CHANGELOG.md."
 }

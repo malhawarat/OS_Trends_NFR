@@ -54,7 +54,7 @@ DUAL-RATER RECONCILED VERSION.
     linear-weighted kappa = 0.69 (Section 5.3.5). Over all 108 cells the
     figures are 87.0% and kappa = 0.81; earlier releases of this package
     quoted only those, which overstates agreement. The Trend tab auto-calculates
-    Table 4's per-platform, per-time-point percentages from the Final
+    Table 5's per-platform, per-time-point percentages from the Final
     Score column via formula.
 
 ===============================================================
